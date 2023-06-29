@@ -1,0 +1,20 @@
+{
+    "name": "eurostep/custom",
+    "description": "This package is used to store Eurostep's internal projects",
+    "autoload": {
+        "psr-4": {
+            "Eurostep\\Custom\\": "src/"
+        },
+        "classmap": [
+          "src/Console/Commands/InstallCommand.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "RamazanRameta",
+            "email": "ramazanrameta94@gmail.com"
+        }
+    ],
+    "require": {}
+}
